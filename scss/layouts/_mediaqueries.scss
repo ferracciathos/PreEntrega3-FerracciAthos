@@ -1,43 +1,72 @@
 @media (max-width:990px) {
 
-    .contenido-dos-asignaturas-materias {
+    // INDEX
+
+    .lema {
         display: flex;
-        flex-direction: column;       
+        flex-direction: column;
+        padding: 0px;
     }
 
-    .asignaturas-contenido {
+    .lema-titulo .lema-subtitulo {
         width: 100%;
-        flex-direction: column;    
+        height: 100%;
+        padding: 0px;
     }
 
-    .contenido-tres-asignaturas-materias {
+    .noticias  {
         display: flex;
-        flex-direction: column;       
-    }
-
-    .asignaturas-contenido-deportes {
+        flex-direction: column;
         width: 100%;
-        flex-direction: column;    
+        margin: 0px;
+        align-items: center;
     }
 
-    .contenedor-dos-inscripciones1 {
-        display: flex;
-        flex-direction: column;       
-    }
-
-    .contenido-dos-colegio {
-        display: flex;
-        flex-direction: column;       
-    }
+    // COLEGIO
 
     .contenedor-principal-colegio {
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;
 
     }
+
     .contenido-dos-colegio-imagen {
         width: 100%;
         height: 100%;
         padding: 0px;
+    }
+
+    // ASIGNATURAS
+
+    .contenido-dos-asignaturas-materias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .asignaturas-contenido {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contenido-tres-asignaturas-materias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .asignaturas-contenido-deportes {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    // INSCRIPCIONES
+
+    .contenedor-dos-inscripciones1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenido-dos-colegio {
+        display: flex;
+        flex-direction: column;
     }
 }

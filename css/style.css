@@ -480,6 +480,32 @@
 }
 
 @media (max-width: 990px) {
+  .lema {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .lema-titulo .lema-subtitulo {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .noticias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+  }
+  .contenedor-principal-colegio {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenido-dos-colegio-imagen {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
   .contenido-dos-asignaturas-materias {
     display: flex;
     flex-direction: column;
@@ -503,15 +529,6 @@
   .contenido-dos-colegio {
     display: flex;
     flex-direction: column;
-  }
-  .contenedor-principal-colegio {
-    display: flex;
-    flex-direction: column;
-  }
-  .contenido-dos-colegio-imagen {
-    width: 100%;
-    height: 100%;
-    padding: 0px;
   }
 }
 
