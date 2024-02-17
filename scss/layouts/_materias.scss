@@ -1,0 +1,123 @@
+.main-materias {
+    background-color: #eee;
+}
+
+.contenido-uno-asignaturas {
+    grid-area: principal;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/clases2.jpeg);
+    background-size: cover;
+    height: 1300px;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-dos-asignaturas-materias {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.contenido-dos-asignaturas {
+    height: 12.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.asignaturas-contenido {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: #1f1f1f;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.asignaturas-nombre {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.asignaturas-nombre:hover {
+    background-color: #666666;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.asignaturas-titulo {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.asignaturas-descripcion {
+    font-size: 18px;
+}
+
+.contenido-tres-asignaturas-deportes {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.contenido-tres-asignaturas {
+    height: 15rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.asignaturas-contenido-deportes {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: #1f1f1f;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    transition: 1s;
+    align-items: center;
+    padding: 20px;
+}
+
+.deportes-nombre {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.deportes-nombre:hover {
+    background-color: #666666;
+    transition: 1s;
+    border-radius: 10px;
+}

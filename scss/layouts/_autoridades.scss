@@ -1,0 +1,76 @@
+.main-autoridades {
+    background-color: #eee;
+}
+
+.contenido-uno-autoridades {
+    grid-area: principal;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/salon.jpg);
+    background-size: cover;
+    height: 1300px;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-dos-autoridades {
+    height: 12.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contenido-dos-autoridades-profesores {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.profesores-contenido {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: #1f1f1f;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 1s;
+}
+
+.profesores-imagen {
+    height: auto;
+}
+
+.profesores-imagen img {
+    vertical-align: middle;
+    border-style: none;   
+}
+
+.profesores-nombre {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.profesores-titulo {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.profesores-contenido:hover {
+    background-color: #666666;
+}

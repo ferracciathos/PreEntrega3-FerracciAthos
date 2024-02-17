@@ -1,0 +1,518 @@
+.contenido-uno-titulo {
+  padding-top: 60rem;
+  font-family: "Source Sans 3";
+  font-size: 5rem;
+  align-self: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.contenido-uno-hr {
+  width: 90%;
+  height: 4px;
+  background-color: #fff;
+}
+
+.contenido-uno-subtitulo {
+  font-family: "Source Sans", sans-serif;
+  font-size: 1.5rem;
+  align-self: center;
+  color: #fff;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.titulo-h2 {
+  font-family: "Source Sans 3", cursive;
+  font-size: 4rem;
+  color: #000;
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1300px 800px 400px;
+  grid-template-areas: "principal principal" "lema lema" "titulo-noticias titulo-noticias" "noticia noticia";
+}
+
+.contenido-uno {
+  grid-area: principal;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/Castillo.jpg);
+  background-size: cover;
+  max-height: 1300px;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lema {
+  grid-area: lema;
+  background-color: rgb(75, 75, 75);
+  height: auto;
+  width: 100%;
+  padding: 20rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.lema-titulo {
+  font-family: "Source Sans 3", cursive;
+  font-size: 5rem;
+  align-self: center;
+  color: #fff;
+}
+
+.lema-subtitulo {
+  font-family: "Source Sans", sans-serif;
+  font-size: 1.5rem;
+  align-self: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+.noticias-principal {
+  grid-area: titulo-noticias;
+  background-color: rgb(48, 47, 47);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+  padding: 2.5rem;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.noticias-titulo {
+  padding-top: 4rem;
+  font-family: "Source Sans 3", cursive;
+  font-size: 5rem;
+  align-self: center;
+  color: #fff;
+  background-color: rgb(48, 47, 47);
+}
+
+.noticias {
+  grid-area: noticia;
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(48, 47, 47);
+}
+
+.noticias img {
+  max-width: 350px;
+  max-height: 300px;
+}
+
+.noticias .noticia {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 30px;
+  text-align: center;
+  transition: all 0.25s;
+  display: inline-block;
+}
+
+.noticia {
+  background-color: rgba(252, 246, 239, 0.89);
+  padding: 30px;
+}
+
+.noticia:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  background-color: gray;
+  color: white;
+}
+
+.noticia img {
+  width: 250px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.noticia h3 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.noticia h4 {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.contenedor-principal-colegio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "principal principal" "acerca acerca";
+  background-color: #fff;
+}
+
+.contenido-uno-colegio {
+  grid-area: principal;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/comedor.jpg);
+  background-size: cover;
+  height: 1300px;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-dos-colegio {
+  grid-area: acerca;
+  background-color: #eee;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "texto imagen";
+  padding: 2.5rem;
+  align-content: center;
+  align-items: center;
+}
+
+.contenido-dos-colegio-imagen {
+  grid-area: imagen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding-left: 220px;
+}
+
+.contenido-dos-colegio-texto {
+  grid-area: texto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contenido-dos-colegio-titulo {
+  font-family: "Source Sans 3", cursive;
+  font-size: 7rem;
+  padding-left: 2rem;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.contenido-dos-colegio-parrafo {
+  font-family: "Source Sans 3", cursive;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 50px;
+  text-align: center;
+  color: #363636;
+}
+
+.main-autoridades {
+  background-color: #eee;
+}
+
+.contenido-uno-autoridades {
+  grid-area: principal;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/salon.jpg);
+  background-size: cover;
+  height: 1300px;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-dos-autoridades {
+  height: 12.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contenido-dos-autoridades-profesores {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  width: 100%;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.profesores-contenido {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  height: auto;
+  background-color: #1f1f1f;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+
+.profesores-imagen {
+  height: auto;
+}
+
+.profesores-imagen img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.profesores-nombre {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.profesores-titulo {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.profesores-contenido:hover {
+  background-color: #666666;
+}
+
+.main-materias {
+  background-color: #eee;
+}
+
+.contenido-uno-asignaturas {
+  grid-area: principal;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/clases2.jpeg);
+  background-size: cover;
+  height: 1300px;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido-dos-asignaturas-materias {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  width: 100%;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.contenido-dos-asignaturas {
+  height: 12.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.asignaturas-contenido {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  height: auto;
+  background-color: #1f1f1f;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.asignaturas-nombre {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.asignaturas-nombre:hover {
+  background-color: #666666;
+  transition: 1s;
+  border-radius: 10px;
+}
+
+.asignaturas-titulo {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.asignaturas-descripcion {
+  font-size: 18px;
+}
+
+.contenido-tres-asignaturas-deportes {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  width: 100%;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.contenido-tres-asignaturas {
+  height: 15rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.asignaturas-contenido-deportes {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  height: auto;
+  background-color: #1f1f1f;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  transition: 1s;
+  align-items: center;
+  padding: 20px;
+}
+
+.deportes-nombre {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.deportes-nombre:hover {
+  background-color: #666666;
+  transition: 1s;
+  border-radius: 10px;
+}
+
+.main-inscripciones {
+  background-color: #eee;
+}
+
+.contenido-uno-inscripciones {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/castillo2.jpg);
+  background-size: cover;
+  height: 1300px;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-dos-inscripciones1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: auto;
+  width: 100%;
+  grid-template-areas: "info imagen";
+  padding: 50px;
+}
+
+.contenido-dos-inscripciones1 {
+  height: 35rem;
+  grid-area: info;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.875rem;
+}
+
+.contenido-dos-inscripciones1 p {
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.contenido-dos-inscripciones-imagen {
+  grid-area: imagen;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 990px) {
+  .contenido-dos-asignaturas-materias {
+    display: flex;
+    flex-direction: column;
+  }
+  .asignaturas-contenido {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contenido-tres-asignaturas-materias {
+    display: flex;
+    flex-direction: column;
+  }
+  .asignaturas-contenido-deportes {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contenedor-dos-inscripciones1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenido-dos-colegio {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor-principal-colegio {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenido-dos-colegio-imagen {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

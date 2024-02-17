@@ -1,0 +1,11 @@
+{
+  "name": "pruebas",
+  "version": "1.0.0",
+  "description": "Bueno este es el repositorio para la segunda preentrega, tuve algunos incovenientes los cuales algunos los pude resolver pero otros no. Lo ultimo que hice en el proyecto fue agregar el git y subirlo a github por eso los commits son todos del dia sabado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

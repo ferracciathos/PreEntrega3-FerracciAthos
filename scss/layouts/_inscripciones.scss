@@ -1,0 +1,48 @@
+.main-inscripciones {
+    background-color: #eee;
+}
+
+.contenido-uno-inscripciones {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/castillo2.jpg);
+    background-size: cover;
+    height: 1300px;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-dos-inscripciones1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    grid-template-areas: "info imagen";
+    padding: 50px;
+}
+
+.contenido-dos-inscripciones1 {
+    height: 35rem;
+    grid-area: info;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.875rem;
+}
+
+.contenido-dos-inscripciones1 p {
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.contenido-dos-inscripciones-imagen {
+    grid-area: imagen;
+    justify-content: center;
+    align-items: center;
+}

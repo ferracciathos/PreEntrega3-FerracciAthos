@@ -1,0 +1,72 @@
+.contenedor-principal-colegio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "principal principal"
+        "acerca acerca";
+    background-color: #fff;
+}
+
+.contenido-uno-colegio {
+    grid-area: principal;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(../assets/images/comedor.jpg);
+    background-size: cover;
+    height: 1300px;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-dos-colegio {
+    grid-area: acerca;
+    background-color: #eee;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "texto imagen";
+    padding: 2.5rem;
+    align-content: center;
+    align-items: center;
+}
+
+.contenido-dos-colegio-imagen {
+    grid-area: imagen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-left: 220px;
+}
+
+.contenido-dos-colegio-texto {
+    grid-area: texto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.contenido-dos-colegio-titulo {
+    font-family: "Source Sans 3", cursive;
+    font-size: 7rem;
+    padding-left: 2rem;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.contenido-dos-colegio-parrafo {
+    font-family: "Source Sans 3", cursive;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 50px;
+    text-align: center;
+    color: #363636;
+}
+
