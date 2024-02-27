@@ -48,12 +48,13 @@
 
 .profesores-imagen {
     height: auto;
+
+    img {
+        vertical-align: middle;
+        border-style: none;   
+    }
 }
 
-.profesores-imagen img {
-    vertical-align: middle;
-    border-style: none;   
-}
 
 .profesores-nombre {
     width: 100%;
@@ -63,12 +64,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
-}
+    color: $color_primario;
 
-.profesores-titulo {
-    font-size: 3rem;
-    text-transform: uppercase;
+    h3 {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
 }
 
 .profesores-contenido:hover {

@@ -1,5 +1,5 @@
 .main-materias {
-    background-color: #eee;
+    background-color: $color_primario;
 }
 
 .contenido-uno-asignaturas {
@@ -54,22 +54,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: $color_primario;
+
+    h3 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
 
 .asignaturas-nombre:hover {
     background-color: #666666;
     transition: 1s;
     border-radius: 10px;
-}
-
-.asignaturas-titulo {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.asignaturas-descripcion {
-    font-size: 18px;
 }
 
 .contenido-tres-asignaturas-deportes {
@@ -113,7 +113,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: $color_primario;
 }
 
 .deportes-nombre:hover {

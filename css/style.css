@@ -1,6 +1,6 @@
 .contenido-uno-titulo {
   padding-top: 60rem;
-  font-family: "Source Sans 3";
+  font-family: "Source Sans 3", sans-serif;
   font-size: 5rem;
   align-self: center;
   color: #fff;
@@ -14,7 +14,7 @@
 }
 
 .contenido-uno-subtitulo {
-  font-family: "Source Sans", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.5rem;
   align-self: center;
   color: #fff;
@@ -23,7 +23,7 @@
 }
 
 .titulo-h2 {
-  font-family: "Source Sans 3", cursive;
+  font-family: "Source Sans 3", sans-serif, cursive;
   font-size: 4rem;
   color: #000;
   width: 100%;
@@ -65,16 +65,14 @@
   justify-content: center;
   text-align: center;
 }
-
-.lema-titulo {
-  font-family: "Source Sans 3", cursive;
+.lema h2 {
+  font-family: "Source Sans 3", sans-serif, cursive;
   font-size: 5rem;
   align-self: center;
   color: #fff;
 }
-
-.lema-subtitulo {
-  font-family: "Source Sans", sans-serif;
+.lema h3 {
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.5rem;
   align-self: center;
   color: #fff;
@@ -95,10 +93,9 @@
   text-align: center;
   justify-content: center;
 }
-
-.noticias-titulo {
+.noticias-principal h2 {
   padding-top: 4rem;
-  font-family: "Source Sans 3", cursive;
+  font-family: "Source Sans 3", sans-serif, cursive;
   font-size: 5rem;
   align-self: center;
   color: #fff;
@@ -113,7 +110,6 @@
   text-align: center;
   background-color: rgb(48, 47, 47);
 }
-
 .noticias img {
   max-width: 350px;
   max-height: 300px;
@@ -132,31 +128,28 @@
 }
 
 .noticia {
-  background-color: rgba(252, 246, 239, 0.89);
+  background-color: #fff;
   padding: 30px;
+}
+.noticia img {
+  width: 250px;
+  height: 220px;
+  border-radius: 10px;
+}
+.noticia h3 {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.noticia h4 {
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .noticia:hover {
   transform: translateY(-20px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
   background-color: gray;
-  color: white;
-}
-
-.noticia img {
-  width: 250px;
-  height: 220px;
-  border-radius: 10px;
-}
-
-.noticia h3 {
-  margin-top: 20px;
-  font-size: 25px;
-}
-
-.noticia h4 {
-  margin-top: 10px;
-  font-size: 15px;
+  color: #fff;
 }
 
 .contenedor-principal-colegio {
@@ -182,7 +175,7 @@
 
 .contenido-dos-colegio {
   grid-area: acerca;
-  background-color: #eee;
+  background-color: #fff;
   height: auto;
   width: 100%;
   display: grid;
@@ -193,8 +186,7 @@
   align-content: center;
   align-items: center;
 }
-
-.contenido-dos-colegio-imagen {
+.contenido-dos-colegio img {
   grid-area: imagen;
   display: flex;
   align-items: center;
@@ -209,18 +201,16 @@
   flex-direction: column;
   width: 100%;
 }
-
-.contenido-dos-colegio-titulo {
-  font-family: "Source Sans 3", cursive;
+.contenido-dos-colegio-texto h2 {
+  font-family: "Source Sans 3", sans-serif, cursive;
   font-size: 7rem;
   padding-left: 2rem;
   text-align: center;
   color: #000;
   text-transform: uppercase;
 }
-
-.contenido-dos-colegio-parrafo {
-  font-family: "Source Sans 3", cursive;
+.contenido-dos-colegio-texto p {
+  font-family: "Source Sans 3", sans-serif, cursive;
   font-size: 1.5rem;
   padding-left: 2rem;
   padding-top: 50px;
@@ -280,7 +270,6 @@
 .profesores-imagen {
   height: auto;
 }
-
 .profesores-imagen img {
   vertical-align: middle;
   border-style: none;
@@ -296,8 +285,7 @@
   text-align: center;
   color: #fff;
 }
-
-.profesores-titulo {
+.profesores-nombre h3 {
   font-size: 3rem;
   text-transform: uppercase;
 }
@@ -307,7 +295,7 @@
 }
 
 .main-materias {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .contenido-uno-asignaturas {
@@ -364,20 +352,18 @@
   text-align: center;
   color: #fff;
 }
+.asignaturas-nombre h3 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.asignaturas-nombre p {
+  font-size: 18px;
+}
 
 .asignaturas-nombre:hover {
   background-color: #666666;
   transition: 1s;
   border-radius: 10px;
-}
-
-.asignaturas-titulo {
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.asignaturas-descripcion {
-  font-size: 18px;
 }
 
 .contenido-tres-asignaturas-deportes {
@@ -431,7 +417,7 @@
 }
 
 .main-inscripciones {
-  background-color: #eee;
+  background-color: #fff;
 }
 
 .contenido-uno-inscripciones {
@@ -458,6 +444,11 @@
   grid-template-areas: "info imagen";
   padding: 50px;
 }
+.contenedor-dos-inscripciones1 img {
+  grid-area: imagen;
+  justify-content: center;
+  align-items: center;
+}
 
 .contenido-dos-inscripciones1 {
   height: 35rem;
@@ -467,16 +458,9 @@
   text-align: center;
   padding: 1.875rem;
 }
-
 .contenido-dos-inscripciones1 p {
   padding-top: 50px;
   font-size: 25px;
-}
-
-.contenido-dos-inscripciones-imagen {
-  grid-area: imagen;
-  justify-content: center;
-  align-items: center;
 }
 
 @media (max-width: 990px) {

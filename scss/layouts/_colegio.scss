@@ -5,7 +5,7 @@
     grid-template-areas:
         "principal principal"
         "acerca acerca";
-    background-color: #fff;
+    background-color: $color_primario;
 }
 
 .contenido-uno-colegio {
@@ -23,7 +23,7 @@
 
 .contenido-dos-colegio {
     grid-area: acerca;
-    background-color: #eee;
+    background-color: $color_primario;
     height: auto;
     width: 100%;
     display: grid;
@@ -33,15 +33,15 @@
     padding: 2.5rem;
     align-content: center;
     align-items: center;
-}
-
-.contenido-dos-colegio-imagen {
-    grid-area: imagen;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    padding-left: 220px;
+ 
+    img {
+        grid-area: imagen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        padding-left: 220px;
+    }
 }
 
 .contenido-dos-colegio-texto {
@@ -50,23 +50,21 @@
     flex-direction: column;
     width: 100%;
 
-}
+    h2 {
+        font-family: $fuente_primario, cursive;
+        font-size: 7rem;
+        padding-left: 2rem;
+        text-align: center;
+        color: #000;
+        text-transform: uppercase;
+    }
 
-.contenido-dos-colegio-titulo {
-    font-family: "Source Sans 3", cursive;
-    font-size: 7rem;
-    padding-left: 2rem;
-    text-align: center;
-    color: #000;
-    text-transform: uppercase;
+    p {
+        font-family: $fuente_primario, cursive;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-top: 50px;
+        text-align: center;
+        color: #363636;
+    }
 }
-
-.contenido-dos-colegio-parrafo {
-    font-family: "Source Sans 3", cursive;
-    font-size: 1.5rem;
-    padding-left: 2rem;
-    padding-top: 50px;
-    text-align: center;
-    color: #363636;
-}
-

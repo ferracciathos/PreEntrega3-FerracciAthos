@@ -33,23 +33,21 @@
     justify-content: center;
     text-align: center;
 
+    h2 {
+        font-family: $fuente_primario, cursive;
+        font-size: 5rem;
+        align-self: center;
+        color: $color_primario;
+    }
+    
+    h3 {
+        font-family: $fuente_primario;
+        font-size: 1.5rem;
+        align-self: center;
+        color: $color_primario;
+        padding: 1rem;
+    }
 }
-
-.lema-titulo {
-    font-family: "Source Sans 3", cursive;
-    font-size: 5rem;
-    align-self: center;
-    color: #fff;
-}
-
-.lema-subtitulo {
-    font-family: "Source Sans", sans-serif;
-    font-size: 1.5rem;
-    align-self: center;
-    color: #fff;
-    padding: 1rem;
-}
-
 
 .noticias-principal {
     grid-area: titulo-noticias;
@@ -64,15 +62,15 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-}
 
-.noticias-titulo {
-    padding-top: 4rem;
-    font-family: "Source Sans 3", cursive;
-    font-size: 5rem;
-    align-self: center;
-    color: #fff;
-    background-color: rgb(48, 47, 47);
+    h2 {
+        padding-top: 4rem;
+        font-family: $fuente_primario, cursive;
+        font-size: 5rem;
+        align-self: center;
+        color: $color_primario;
+        background-color: rgb(48, 47, 47);
+    }
 }
 
 .noticias {
@@ -82,11 +80,11 @@
     display: inline-block;
     text-align: center;
     background-color: rgb(48, 47, 47);
-}
 
-.noticias img {
-    max-width: 350px;
-    max-height: 300px;
+    img {
+        max-width: 350px;
+        max-height: 300px;
+    }
 }
 
 .noticias .noticia {
@@ -102,29 +100,27 @@
 }
 
 .noticia {
-    background-color: rgba(252, 246, 239, 0.89);
+    background-color: $color_primario;
     padding: 30px;
+
+    img {
+        width: 250px;
+        height: 220px;
+        border-radius: 10px;
+    }   
+    h3 {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    h4 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
 }
 
 .noticia:hover {
     transform: translateY(-20px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
     background-color: gray;
-    color: white;
-}
-
-.noticia img {
-    width: 250px;
-    height: 220px;
-    border-radius: 10px;
-}
-
-.noticia h3 {
-    margin-top: 20px;
-    font-size: 25px;
-}
-
-.noticia h4 {
-    margin-top: 10px;
-    font-size: 15px;
+    color: $color_primario;
 }
