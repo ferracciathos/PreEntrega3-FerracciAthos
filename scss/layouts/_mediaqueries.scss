@@ -1,11 +1,27 @@
 @media (max-width:990px) {
 
+    .iframe {
+        width: fit-content;
+    }
+
+    .contenido-uno-titulo {
+        font-size: 3rem;
+    }
+
+    .contenido-uno-subtitulo {
+        text-align: center;
+    }
+
     // INDEX
 
     .lema {
         display: flex;
         flex-direction: column;
         padding: 0px;
+
+        h2 {
+            font-size: 3rem;
+        }
     }
 
     .lema-titulo .lema-subtitulo {
@@ -14,14 +30,27 @@
         padding: 0px;
     }
 
-    .noticias  {
+    .noticias-principal {
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    .noticias {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin: 0px;
         align-items: center;
     }
-    
+
+    .noticias .noticia {
+        width: auto;
+        max-width: 310px;
+
+    }
+
 
     // COLEGIO
 
@@ -32,9 +61,37 @@
     }
 
     .contenido-dos-colegio-imagen {
-        width: 100%;
         height: 100%;
         padding: 0px;
+    }
+
+    .contenido-dos-colegio img {
+        padding-left: 0px;
+        max-width: 320px;
+    }
+
+    .contenido-dos-colegio-texto h2 {
+        font-size: 3rem;
+    }
+
+    // AUTORIDADES
+
+    .contenido-dos-autoridades h2 {
+        font-size: 3rem;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .profesores-contenido {
+        flex-direction: column;
+    }
+
+    .profesores-nombre h3 {
+        font-size: 2rem;
+    }
+
+    .profesores-imagen img {
+        width: 100%;
     }
 
     // ASIGNATURAS
@@ -44,30 +101,69 @@
         flex-direction: column;
     }
 
+    .contenido-dos-asignaturas h2 {
+        font-size: 2rem;
+    }
+
     .asignaturas-contenido {
         width: 100%;
         flex-direction: column;
+    }
+
+    .contenido-tres-asignaturas {
+        height: 10rem;
+
+        h2 {
+            font-size: 2rem;
+            padding-top: 0px;
+        }
     }
 
     .contenido-tres-asignaturas-materias {
         display: flex;
         flex-direction: column;
     }
-
+    .contenido-tres-asignaturas-deportes {
+        display: flex;
+    }
     .asignaturas-contenido-deportes {
         width: 100%;
         flex-direction: column;
+        padding: 0px;
+    }
+
+    .deportes-nombre img {
+        width: auto;
+        height: 150px;
     }
 
     // INSCRIPCIONES
-
+    .contenido-dos-inscripciones h2 {
+        font-size: 2rem;
+    }
     .contenedor-dos-inscripciones1 {
         display: flex;
         flex-direction: column;
+        padding: 0px;
+
+        p {
+            font-size: 1rem;
+        }
     }
 
     .contenido-dos-colegio {
         display: flex;
         flex-direction: column;
     }
+}
+
+    .contenido-dos-inscripciones-imagen {
+       
+        img {
+             width: 100%;
+    }
+}
+
+.formulario-inscripciones {
+    width: 100% !important;
 }

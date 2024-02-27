@@ -464,15 +464,30 @@
 }
 
 @media (max-width: 990px) {
+  .iframe {
+    width: fit-content;
+  }
+  .contenido-uno-titulo {
+    font-size: 3rem;
+  }
+  .contenido-uno-subtitulo {
+    text-align: center;
+  }
   .lema {
     display: flex;
     flex-direction: column;
     padding: 0px;
   }
+  .lema h2 {
+    font-size: 3rem;
+  }
   .lema-titulo .lema-subtitulo {
     width: 100%;
     height: 100%;
     padding: 0px;
+  }
+  .noticias-principal h2 {
+    font-size: 3rem;
   }
   .noticias {
     display: flex;
@@ -481,39 +496,95 @@
     margin: 0px;
     align-items: center;
   }
+  .noticias .noticia {
+    width: auto;
+    max-width: 310px;
+  }
   .contenedor-principal-colegio {
     display: flex;
     flex-direction: column;
   }
   .contenido-dos-colegio-imagen {
-    width: 100%;
     height: 100%;
     padding: 0px;
+  }
+  .contenido-dos-colegio img {
+    padding-left: 0px;
+    max-width: 320px;
+  }
+  .contenido-dos-colegio-texto h2 {
+    font-size: 3rem;
+  }
+  .contenido-dos-autoridades h2 {
+    font-size: 3rem;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .profesores-contenido {
+    flex-direction: column;
+  }
+  .profesores-nombre h3 {
+    font-size: 2rem;
+  }
+  .profesores-imagen img {
+    width: 100%;
   }
   .contenido-dos-asignaturas-materias {
     display: flex;
     flex-direction: column;
   }
+  .contenido-dos-asignaturas h2 {
+    font-size: 2rem;
+  }
   .asignaturas-contenido {
     width: 100%;
     flex-direction: column;
+  }
+  .contenido-tres-asignaturas {
+    height: 10rem;
+  }
+  .contenido-tres-asignaturas h2 {
+    font-size: 2rem;
+    padding-top: 0px;
   }
   .contenido-tres-asignaturas-materias {
     display: flex;
     flex-direction: column;
   }
+  .contenido-tres-asignaturas-deportes {
+    display: flex;
+  }
   .asignaturas-contenido-deportes {
     width: 100%;
     flex-direction: column;
+    padding: 0px;
+  }
+  .deportes-nombre img {
+    width: auto;
+    height: 150px;
+  }
+  .contenido-dos-inscripciones h2 {
+    font-size: 2rem;
   }
   .contenedor-dos-inscripciones1 {
     display: flex;
     flex-direction: column;
+    padding: 0px;
+  }
+  .contenedor-dos-inscripciones1 p {
+    font-size: 1rem;
   }
   .contenido-dos-colegio {
     display: flex;
     flex-direction: column;
   }
+}
+.contenido-dos-inscripciones-imagen img {
+  width: 100%;
+}
+
+.formulario-inscripciones {
+  width: 100% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
